@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programación Web I | 5 ejercicios</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f3f6fb; color: #17233b; }
+    main { max-width: 850px; margin: 55px auto; padding: 20px; }
+    header { text-align: center; margin-bottom: 28px; }
+    h1 { margin-bottom: 10px; }
+    .subtitulo { color: #58667e; }
+    .lista { display: grid; gap: 14px; }
+    a { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 20px; border-radius: 12px; background: white; border: 1px solid #dce4f0; color: inherit; text-decoration: none; box-shadow: 0 3px 12px #142d4d0a; }
+    a:hover, a:focus-visible { border-color: #326be6; background: #f8fbff; }
+    .numero { font-size: 13px; color: #326be6; font-weight: bold; }
+    .nombre { display: block; font-size: 18px; font-weight: bold; margin-top: 5px; }
+    .detalle { display: block; color: #58667e; margin-top: 6px; font-size: 14px; }
+    .flecha { color: #326be6; font-size: 24px; }
+    footer { text-align: center; margin-top: 28px; color: #58667e; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Programación Web I</h1>
+      <p class="subtitulo">Arreglos, objetos y localStorage en JavaScript</p>
+      <p>Selecciona un ejercicio para abrirlo.</p>
+    </header>
+    <nav class="lista" aria-label="Lista de ejercicios">
+      <a href="ejercicio_1.html"><span><span class="numero">EJERCICIO 1</span><span class="nombre">Agregar un correo electrónico</span><span class="detalle">Guardar nombre, correo y clave ficticia como objeto.</span></span><span class="flecha">→</span></a>
+      <a href="ejercicio_2.html"><span><span class="numero">EJERCICIO 2</span><span class="nombre">Validar los datos</span><span class="detalle">Comprobar nombre, formato de correo y longitud de clave.</span></span><span class="flecha">→</span></a>
+      <a href="ejercicio_3.html"><span><span class="numero">EJERCICIO 3</span><span class="nombre">Mostrar cantidad de usuarios</span><span class="detalle">Utilizar usuarios.length para mostrar el total.</span></span><span class="flecha">→</span></a>
+      <a href="ejercicio_4.html"><span><span class="numero">EJERCICIO 4</span><span class="nombre">Buscar usuarios</span><span class="detalle">Localizar usuarios por nombre con find().</span></span><span class="flecha">→</span></a>
+      <a href="ejercicio_5.html"><span><span class="numero">EJERCICIO 5</span><span class="nombre">Eliminar registros</span><span class="detalle">Eliminar usuarios del arreglo y de localStorage.</span></span><span class="flecha">→</span></a>
+    </nav>
+    <footer>Proyecto educativo. Utiliza únicamente datos y claves ficticias.</footer>
+  </main>
+</body>
+</html>
